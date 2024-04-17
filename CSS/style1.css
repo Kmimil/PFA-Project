@@ -90,6 +90,10 @@ a.sidebar-link{
     font-size: .875rem;
 }
 
+.sidebar-link:hover{
+    background-color: #485167;
+}
+
 .sidebar-link[data-bs-toggle="collapse"]::after {
     border: solid;
     border-width: 0 .075rem .075rem 0;
@@ -138,17 +142,21 @@ a.sidebar-link{
 
 .card1 {
     background-color: #92A8D1;
+    padding-bottom: 0;
 }
 
 .card1:hover {
     background-color: #293b5f;
     color: #FFF;
+    cursor: pointer;
     
 }
 
 
 .card2 {
     background-color: #DFCFBE;
+    padding-bottom: 0;
+    cursor: pointer;
 }
 
 .card2:hover{
@@ -159,11 +167,12 @@ a.sidebar-link{
 
 .card3 {
     background-color: #98B4D4;
+    padding-bottom: 0;
 }
 
 .card4 {
-    background-color: var(--bs-dark);
-    color: #FFF;
+    background-color: #FFF;
+    color: black;
 }
 
 .illustration {

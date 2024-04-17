@@ -90,6 +90,10 @@ a.sidebar-link{
     font-size: .875rem;
 }
 
+.hover:hover{
+    background-color: #485167;
+}
+
 .sidebar-link[data-bs-toggle="collapse"]::after {
     border: solid;
     border-width: 0 .075rem .075rem 0;
@@ -189,8 +193,4 @@ html[data-bs-theme="dark"] .theme-toggle .fa-moon{
 
 html[data-bs-theme="light"] .theme-toggle .fa-sun{
     display: none;
-}
-
-.fa-user{
-    align-items: center;
 }
